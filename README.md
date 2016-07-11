@@ -1,4 +1,4 @@
-# TBB http:/115.29.96.197:6060/
+# TBB http://115.29.136.57:8080/
  
 ## Project for Android and Database courses.
 
