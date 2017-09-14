@@ -2,7 +2,7 @@
  
 ## Project for Android and Database courses.
 
-### 用户注册
+### Register
 - Url: /sign_up
 - Method: GET/POST
 - Para:
@@ -20,7 +20,7 @@
 }
 ```
 
-### 用户登录
+### Sign in
 - Url: /sign_in
 - Method: POST
 - Para:
@@ -37,8 +37,8 @@
 }
 ```
 
-### 图片操作
-#### 上传头像
+### Pictures Util
+#### upload avatar
 - Url: /pict
 - Method: POST
 - Para:
@@ -56,7 +56,7 @@
 }
 ```
 
-#### 下载头像
+#### download avatar
 - Url: /pict
 - Method: POST
 - Para: 
@@ -73,7 +73,7 @@
     "head": String(utf-8)
 }
 ```
-#### 上传商品图片
+#### Upload item pic
 - Url: /pict
 - Method: POST
 - Para:
@@ -92,7 +92,7 @@
 }
 ```
 
-#### 下载商品图片
+#### Downlod item pic
 - Url: /pict
 - Method: POST
 - Para: 
@@ -111,8 +111,8 @@
 }
 ```
 
-### 个人信息
-#### 修改个人资料
+### Personal information
+#### Modify personal info
 - Url: /personal_msg
 - Method: POST
 - Para: 
@@ -133,7 +133,7 @@
 }
 ```
 
-#### 获取个人资料
+#### Get personal info
 - Url: /personal_msg
 - Method: POST
 - Para: 
@@ -154,7 +154,7 @@
 }
 ```
 
-#### 修改密码
+#### Change password
 - Url: /personal_msg
 - Method: POST
 - Para: 
@@ -173,7 +173,7 @@
 }
 ```
 
-#### 修改昵称
+#### Change nickname
 - Url: /personal_msg
 - Method: POST
 - Para: 
@@ -191,8 +191,8 @@
 }
 ```
 
-### 商品类型
-#### 添加类型
+### Item category, unused!!!
+#### Add category
 - Url: /item_type
 - Method: POST
 - Para: 
@@ -210,7 +210,7 @@
 }
 ```
 
-#### 获取类型信息
+#### Get category
 - Url: /item_type
 - Method: POST
 - Para: 
@@ -227,7 +227,7 @@
 }
 ```
 
-#### 更新类型信息
+#### Update category
 - Url: /item_type
 - Method: POST
 - Para: 
@@ -245,7 +245,7 @@
 }
 ```
 
-#### 删除类型
+#### Delete category
 - Url: /item_type
 - Method: POST
 - Para: 
@@ -262,8 +262,8 @@
 }
 ```
 
-### 商品卖家
-#### 添加商品
+### Sellers Utils
+#### Add item
 - Url: /seller
 - Method: POST
 - Para: 
@@ -286,7 +286,7 @@
 }
 ```
 
-#### 获取商品ID（处理异常）
+#### Get selling item id
 - Url: /seller
 - Method: POST
 - Para: 
@@ -308,7 +308,7 @@
 }
 ```
 
-#### 获取商品信息
+#### Get selling item info by id
 - Url: /seller
 - Method: POST
 - Para: 
@@ -333,7 +333,7 @@
 }
 ```
 
-#### 删除商品
+#### Delete selling item
 - Url: /seller
 - Method: POST
 - Para: 
@@ -351,7 +351,7 @@
 }
 ```
 
-#### 更新商品
+#### Update selling item info
 - Url: /seller
 - Method: POST
 - Para: 
@@ -373,7 +373,7 @@
 }
 ```
 
-#### 更新商品类型
+#### Update selling item category
 - Url: /seller
 - Method: POST
 - Para: 
@@ -392,7 +392,7 @@
 }
 ```
 
-#### 获取商品卖家
+#### Get seller of item
 - Url: /seller
 - Method: POST
 - Para: 
@@ -411,7 +411,7 @@
 }
 ```
 
-#### 重新放出商品
+#### Resell item
 - Url: /seller
 - Method: POST
 - Para: 
@@ -430,7 +430,7 @@
 }
 ```
 
-#### 获取售卖中商品
+#### Get all items in sale
 - Url: /seller
 - Method: POST
 - Para: 
@@ -449,7 +449,7 @@
 }
 ```
 
-#### 获取自己的商品
+#### Get my items in sale(including sold ones)
 - Url: /seller
 - Method: POST
 - Para: 
@@ -468,7 +468,7 @@
 }
 ```
 
-#### 获取用户的商品（售卖中）
+#### Get my items in sale(only still in sale)
 - Url: /seller
 - Method: POST
 - Para: 
@@ -489,8 +489,8 @@
 ```
 
 
-### 买家操作
-#### 购买商品
+### Customer Utils
+#### Purchase item
 - Url: /buyer
 - Method: POST
 - Para: 
@@ -507,7 +507,7 @@
     "rescode": String
 }
 ```
-#### 获取商品买家
+#### Get buyer of item
 - Url: /buyer
 - Method: POST
 - Para: 
